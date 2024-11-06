@@ -1,5 +1,5 @@
 import {Router} from "express";
-import { recoverPassword, resetPassword } from "../controllers/passwordControllers.js"
+import { recoverPassword, resetPassword } from "../controllers/usersControllers.js"
 
 const router = Router();
 router.post('/recover-password', recoverPassword);
